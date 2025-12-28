@@ -8,8 +8,17 @@ body {
   color: white;
 }
 
+h1 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: bold;
+}
+
 h1 span {
   color: #9747ff;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
 }
 
 a {
