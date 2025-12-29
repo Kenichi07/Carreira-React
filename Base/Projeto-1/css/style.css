@@ -8,9 +8,16 @@ body {
   color: white;
 }
 
+header img {
+  display: block;
+  margin: 75px 0 0 360px;
+}
+
 h1 {
   font-family: "Unbounded", sans-serif;
   font-weight: bold;
+  font-size: 64px;
+  text-align: center;
 }
 
 h1 span {
@@ -19,8 +26,28 @@ h1 span {
 
 p {
   font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-align: center;
 }
 
 a {
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #9747ff;
+  width: 340px;
+  height: 66px;
+  display: block;
+  text-align: center;
+  line-height: 66px;
+  border-radius: 36px;
+  margin: 40px auto;
+}
+
+section img {
+  display: block;
+  width: 792px;
+  height: 446px;
+  margin: 0 auto;
 }
