@@ -1,4 +1,4 @@
-# ⚙️ Ambiente e Estrutura de Pastas
+# 1.⚙️ Ambiente e Estrutura de Pastas
    A organização clara das pastas é fundamental para a manutenibilidade e escalabilidade do projeto.
 
 1.1 Estrutura Padrão
@@ -90,8 +90,9 @@ Exemplos:
 
 <span>: Usada para aplicar estilo a uma pequena parte de um texto (nível inline).
 
-# 🔗 Versionamento e Colaboração (Git e GitHub)Utilizamos Git para controle de versão local e GitHub como plataforma de hospedagem e colaboração.
-  Utilizamos Git para controle de versão local e GitHub como plataforma de hospedagem.
+# 🔗 Versionamento e Colaboração (Git e GitHub)
+Utilizamos Git para controle de versão local e GitHub como plataforma de hospedagem e colaboração.
+Utilizamos Git para controle de versão local e GitHub como plataforma de hospedagem.
 
 4.1 Fluxo de Trabalho com Branches (Git Flow Simplificado)
 Adotamos um fluxo de trabalho baseado em branches para garantir que o código principal (main) permaneça estável e funcional.
