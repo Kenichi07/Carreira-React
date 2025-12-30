@@ -20,8 +20,8 @@ Geralmente, adotamos uma estrutura que separa os tipos de arquivos para fácil l
 
 index.html: O ponto de entrada principal, que linca todos os recursos das pastas acima.
 
-2. ✨ Aplicação de Estilo no HTML
-   Existem três formas principais de aplicar estilo a um documento HTML. A forma recomendada para projetos profissionais é a Folha de Estilo Externa.
+# ✨ Aplicação de Estilo no HTML
+Existem três formas principais de aplicar estilo a um documento HTML. A forma recomendada para projetos profissionais é a Folha de Estilo Externa.
 
 2.1 Folha de Estilo Externa (Recomendado)
 O estilo é definido em um arquivo .css separado (ex: style.css).
@@ -57,7 +57,9 @@ Desvantagem: Mistura apresentação com estrutura, dificulta a manutenção e te
 HTML
 
 <p style="color: red; font-size: 16px;">Este é um parágrafo.</p>
-3. 🏷️ Tags Semânticas vs. Não Semânticas
+
+# 🏷️ Tags Semânticas vs. Não Semânticas
+
 A escolha das tags HTML afeta a acessibilidade, o SEO (Otimização para Mecanismos de Busca) e a clareza do código.
 
 3.1 Tags Semânticas (Recomendado)
@@ -88,7 +90,7 @@ Exemplos:
 
 <span>: Usada para aplicar estilo a uma pequena parte de um texto (nível inline).
 
-4. 🔗 Versionamento e Colaboração (Git e GitHub)Utilizamos Git para controle de versão local e GitHub como plataforma de hospedagem e colaboração.
+# 🔗 Versionamento e Colaboração (Git e GitHub)Utilizamos Git para controle de versão local e GitHub como plataforma de hospedagem e colaboração.
   Utilizamos Git para controle de versão local e GitHub como plataforma de hospedagem.
 
 4.1 Fluxo de Trabalho com Branches (Git Flow Simplificado)
@@ -138,7 +140,7 @@ Para ilustrar o fluxo, imagine que você precisa adicionar o arquivo /js/novo-sc
 
   6. Merge: Após a revisão e aprovação, o PR é mesclado em /develop. A branch de trabalho pode ser deletada.
 
-💡 Conclusão: Princípios Chave
+# 💡 Conclusão: Princípios Chave
 Organização: Mantenha /css e /img separados.
 
 Estilo: Use Folhas de Estilo Externas para manter HTML e CSS separados.
