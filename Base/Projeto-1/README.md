@@ -1,4 +1,4 @@
-1. ⚙️ Ambiente e Estrutura de Pastas
+# ⚙️ Ambiente e Estrutura de Pastas
    A organização clara das pastas é fundamental para a manutenibilidade e escalabilidade do projeto.
 
 1.1 Estrutura Padrão
