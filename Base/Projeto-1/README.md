@@ -31,7 +31,7 @@ Vantagem: Limpeza do código HTML, reutilização de estilos em múltiplas pági
 
 <img width="402" height="105" alt="image" src="https://github.com/user-attachments/assets/a1dd0e24-1e0e-4d0e-b53d-22d784853144" />
 
-1.1 Estilo Interno  
+2. Estilo Interno  
 O estilo é definido dentro da tag <style> no <head> do documento HTML.
 
 Uso: Estilos específicos para aquela página que não serão usados em outro lugar.
@@ -40,7 +40,7 @@ Desvantagem: Não pode ser reutilizado em outras páginas.
 
 <img width="269" height="190" alt="image" src="https://github.com/user-attachments/assets/3b739bb9-973b-4afc-983a-90f6db62d775" />
 
-1.2 Estilo Inline  
+3. Estilo Inline  
 O estilo é aplicado diretamente em um elemento HTML usando o atributo style.
 
 Uso: Apenas em exceções muito raras, para estilos dinâmicos gerados por JS, ou testes rápidos.
@@ -72,7 +72,7 @@ footer: Informações de rodapé, direitos autorais.
 
 Benefício: Ajuda leitores de tela (acessibilidade) e motores de busca (SEO) a entender a hierarquia e o contexto da página.
 
-1.1 Tags Não Semânticas  
+2. Tags Não Semânticas  
 Tags que não transmitem significado sobre o tipo de conteúdo que contêm, servindo apenas como "caixas" para agrupamento de elementos ou aplicação de estilo.
 
 Tags exemplos:
@@ -93,7 +93,7 @@ Adotamos um fluxo de trabalho baseado em branches para garantir que o código pr
 ├── /feature/nome-da-feature (Criada a partir de /develop para desenvolver uma nova funcionalidade.)  
 └── /fix/nome-do-bug (Criada a partir de /develop para corrigir um bug.)  
 
-1.1 Padrão de Mensagens de Commit (Conventional Commits)  
+2. Padrão de Mensagens de Commit (Conventional Commits)  
   Todas as mensagens de commit devem seguir o padrão Tipo: Assunto, que permite gerar changelogs (histórico de mudanças) automáticos e facilita a revisão do código.
 
   Formato: tipo: descrição da mudança
@@ -107,7 +107,7 @@ Tipo / Descrição / Exemplo
   6. test / (Adição ou alteração de testes.) / [test: Adiciona testes unitários para /js/script.js]
   7. chore / (Mudanças de rotina (configurações de build, atualizações de dependências).) / [chore: Atualiza versão do NPM]
 
-1.2 Passos Profissionais para Desenvolvimento  
+3. Passos Profissionais para Desenvolvimento  
 Para ilustrar o fluxo, imagine que você precisa adicionar o arquivo /js/novo-script.js.
 
   1. Sincronizar develop: Garanta que sua cópia local de /develop esteja atualizada.  
