@@ -159,7 +159,12 @@
             <label for="x">X</label>
             <br />
             <label for="musicStyle">Estilo musical: </label>
-            <input type="text" id="musicStyle" name="userMusicStyle" list="styleTypes" />
+            <input
+              type="text"
+              id="musicStyle"
+              name="userMusicStyle"
+              list="styleTypes"
+            />
             <datalist id="styleTypes">
               <option value="Pop"></option>
               <option value="Rock"></option>
@@ -172,6 +177,9 @@
               <option value="MPB"></option>
               <option value="Reggae"></option>
             </datalist>
+            <br />
+            <label for="favoriteColor">Cor favorita: </label>
+            <input type="color" id="favoriteColor" name="userFavoriteColor" />
           </fieldset>
 
           <button type="submit">Enviar</button>
