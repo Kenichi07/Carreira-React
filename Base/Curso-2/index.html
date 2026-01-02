@@ -13,7 +13,7 @@
     <main>
       <section>
         <form action="#" method="get">
-          <fieldset>
+          <!-- <fieldset>
             <legend>Dados Pessoais:</legend>
             <label for="name">Nome:</label>
             <input type="text" id="name" name="userName" required />
@@ -47,9 +47,9 @@
             <label for="image">Upload de foto:</label>
             <input type="file" id="image" accept="image/*" name="userImage" />
             <br />
-          </fieldset>
+          </fieldset> -->
 
-          <fieldset>
+          <!-- <fieldset>
             <legend>Perfil:</legend>
             <p>Gênero:</p>
             <input
@@ -120,23 +120,58 @@
             </select>
 
             <label for="city">Cidade: </label>
-            <input type="text" name="userCity" id="city" placeholder="São Paulo" />
-          </fieldset>
+            <input
+              type="text"
+              name="userCity"
+              id="city"
+              placeholder="São Paulo"
+            />
+          </fieldset> -->
 
           <fieldset>
             <legend>Hábitos:</legend>
             <p>Redes Sociais:</p>
-            <input type="checkbox" id="instagram" name="social" value="instagram" />
+            <input
+              type="checkbox"
+              id="instagram"
+              name="social"
+              value="instagram"
+            />
             <label for="instagram">Instagram</label>
             <br />
-            <input type="checkbox" id="facebook" name="social" value="facebook" />
+            <input
+              type="checkbox"
+              id="facebook"
+              name="social"
+              value="facebook"
+            />
             <label for="facebook">Facebook</label>
             <br />
-            <input type="checkbox" id="linkedin" name="social" value="linkedin" />
+            <input
+              type="checkbox"
+              id="linkedin"
+              name="social"
+              value="linkedin"
+            />
             <label for="linkedin">LinkedIn</label>
             <br />
             <input type="checkbox" id="x" name="social" value="X" />
             <label for="x">X</label>
+            <br />
+            <label for="musicStyle">Estilo musical: </label>
+            <input type="text" id="musicStyle" name="userMusicStyle" list="styleTypes" />
+            <datalist id="styleTypes">
+              <option value="Pop"></option>
+              <option value="Rock"></option>
+              <option value="Sertanejo"></option>
+              <option value="Funk"></option>
+              <option value="Jazz"></option>
+              <option value="Clássica"></option>
+              <option value="Eletrônica"></option>
+              <option value="Hip Hop"></option>
+              <option value="MPB"></option>
+              <option value="Reggae"></option>
+            </datalist>
           </fieldset>
 
           <button type="submit">Enviar</button>
