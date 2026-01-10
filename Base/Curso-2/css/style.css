@@ -20,6 +20,10 @@ header {
   margin-bottom: 20px;
 }
 
+img {
+  width: 100px;
+}
+
 h1 {
   font-family: "Fjalla One", sans-serif;
 }
