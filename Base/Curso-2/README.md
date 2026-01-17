@@ -1,7 +1,7 @@
-📊 Projeto Culturama: Pesquisa de Opinião  
+# 📊 Projeto Culturama: Pesquisa de Opinião  
 Este projeto é um formulário de pesquisa de opinião completo e acessível, desenvolvido para coletar dados demográficos, hábitos e opiniões de usuários. O foco principal foi a utilização de HTML5 semântico, acessibilidade digital (A11y) e validação de dados nativa.
 
-🚀 Funcionalidades do Formulário  
+# 🚀 Funcionalidades do Formulário  
 O formulário está dividido em seções lógicas utilizando fieldset e legend para facilitar a navegação e compreensão:
 
 Dados Pessoais: Coleta de nome, idade (com limite de 12 a 100 anos), data de nascimento, e-mail e telefone.
@@ -20,7 +20,7 @@ Opinião e Feedback: Escala de satisfação e um campo de texto (textarea) para 
 
 Conformidade LGPD: Checkbox obrigatório para aceite de participação, garantindo a transparência no tratamento dos dados.
 
-🛠️ Tecnologias e Conceitos Aplicados
+# 🛠️ Tecnologias e Conceitos Aplicados
 
 1 - Estrutura e Semântica
 Utilização de tags como main, header, section, fieldset e footer.
@@ -41,7 +41,7 @@ SEO Técnico: Uso de meta tags de viewport e charset, além de títulos hierárq
 
 Favicon Personalizado: Identidade visual presente desde a aba do navegador.
 
-📂 Estrutura de Pastas  
+# 📂 Estrutura de Pastas  
 /  
 ├── index.html // Estrutura do formulário  
 ├── sucesso.html // Página de destino após o envio  
@@ -51,7 +51,7 @@ Favicon Personalizado: Identidade visual presente desde a aba do navegador.
 ├── logo-culturama.png // Logo oficial no cabeçalho  
 └── culturama-favico.png // Ícone da aba do navegador
 
-🧠 Aprendizados Extraídos  
+# 🧠 Aprendizados Extraídos  
 Validação Nativa: Como restringir entradas de dados (como idade mínima e máxima) sem depender exclusivamente de JavaScript.
 
 Usabilidade com Datalist: Oferecer opções ao usuário enquanto permite a liberdade de escrita.
